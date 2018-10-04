@@ -11,7 +11,7 @@ spring:
 ---
 spring:
  profiles: test
- application
+ application:
   name: microservicecloud-config-atguigu-test
 
 #提交到github一定保存为utf-8
