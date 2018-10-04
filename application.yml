@@ -1,0 +1,17 @@
+spring:
+ profiles:
+  active:
+  - dev
+
+---
+spring:
+ profiles: dev
+ application:
+  name: microservicecloud-config-atguigu-dev
+---
+spring:
+ profiles: test
+ application
+  name: microservicecloud-config-atguigu-test
+
+#提交到github一定保存为utf-8
